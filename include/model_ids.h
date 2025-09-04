@@ -269,6 +269,8 @@
 #define MODEL_WF_TOWER_DOOR                       0x39        // wf_geo_000BE0
 #define MODEL_WF_KICKABLE_BOARD_FELLED            0x3A        // wf_geo_000BC8
 
+#define MODEL_PROPELLOR                              0x3B 
+
 // ending
 
 // castle grounds

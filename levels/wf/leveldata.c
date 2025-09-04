@@ -67,3 +67,7 @@
 #include "levels/wf/areas/1/collision.inc.c"
 #include "levels/wf/areas/1/macro.inc.c"
 #include "levels/wf/areas/1/movtext.inc.c"
+
+#include "levels/wf/leveldata.inc.c"
+#include "levels/wf/Propellor/collision.inc.c"
+#include "levels/wf/Propellor/model.inc.c"

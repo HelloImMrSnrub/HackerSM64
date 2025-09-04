@@ -71,6 +71,6 @@
  * This is automatically enabled when ENABLE_VANILLA_LEVEL_SPECIFIC_CHECKS is enabled,
  * but feel free to override it if you really want to for some reason.
  */
-#ifdef ENABLE_VANILLA_LEVEL_SPECIFIC_CHECKS
-    #define ENABLE_VANILLA_CAM_PROCESSING
-#endif
+//#ifdef ENABLE_VANILLA_LEVEL_SPECIFIC_CHECKS
+    //#define ENABLE_VANILLA_CAM_PROCESSING
+//#endif

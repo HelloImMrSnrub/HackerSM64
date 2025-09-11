@@ -1,4 +1,4 @@
-const Collision Propellor_collision[] = {
+const Collision ChainPlatform_collision[] = {
 	COL_INIT(),
 	COL_VERTEX_INIT(85),
 	COL_VERTEX(-424, 19, -97),
@@ -86,7 +86,7 @@ const Collision Propellor_collision[] = {
 	COL_VERTEX(-174, -64, 131),
 	COL_VERTEX(-349, -27, 6),
 	COL_VERTEX(-174, -27, 3),
-	COL_TRI_INIT(SURFACE_HARD_VERY_SLIPPERY, 162),
+	COL_TRI_INIT(SURFACE_DEFAULT, 162),
 	COL_TRI(0, 1, 2),
 	COL_TRI(0, 2, 3),
 	COL_TRI(4, 5, 6),

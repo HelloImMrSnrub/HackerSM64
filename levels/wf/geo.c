@@ -44,3 +44,4 @@
 
 #include "levels/wf/geo.inc.c"
 #include "levels/wf/Propellor/geo.inc.c"
+#include "levels/wf/ChainPlatform/geo.inc.c"

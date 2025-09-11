@@ -105,4 +105,8 @@ extern const LevelScript level_wf_entry[];
 
 #include "levels/wf/Propellor/geo_header.h"
 
+#include "levels/wf/ChainPlatform/collision_header.h"
+
+#include "levels/wf/ChainPlatform/geo_header.h"
+
 #endif

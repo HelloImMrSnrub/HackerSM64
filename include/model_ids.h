@@ -3,9 +3,6 @@
 
 #define MODEL_NONE                             0x00
 
-/* fast64 object exports get inserted here */
-#define MODEL_CHAINPLATFORM               226
-
 /* Global models that are loaded for every level */
 
 #define MODEL_MARIO                            0x01        // mario_geo
@@ -272,7 +269,7 @@
 #define MODEL_WF_TOWER_DOOR                       0x39        // wf_geo_000BE0
 #define MODEL_WF_KICKABLE_BOARD_FELLED            0x3A        // wf_geo_000BC8
 
-#define MODEL_PROPELLOR                   226
+#define MODEL_PROPELLOR                              0x3B 
 
 // ending
 

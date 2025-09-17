@@ -71,5 +71,3 @@
 #include "levels/wf/leveldata.inc.c"
 #include "levels/wf/Propellor/collision.inc.c"
 #include "levels/wf/Propellor/model.inc.c"
-#include "levels/wf/ChainPlatform/collision.inc.c"
-#include "levels/wf/ChainPlatform/model.inc.c"

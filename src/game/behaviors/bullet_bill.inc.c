@@ -18,10 +18,10 @@ void bullet_bill_act_0(void) {
     cur_obj_set_pos_to_home();
     o->oAction = 1;
 }
-
+//(GET_BPARAM1(o->oBehParams)*100)
 void bullet_bill_act_1(void) {
     s16 sp1E = abs_angle_diff(o->oAngleToMario, o->oMoveAngleYaw);
-    if (sp1E < 0x2000 && 400.0f < o->oDistanceToMario && o->oDistanceToMario < 1500.0f) {
+    if (sp1E < 0x2000 && 400.0f < o->oDistanceToMario && o->oDistanceToMario < (GET_BPARAM1(o->oBehParams)*100)) {
         o->oAction = 2;
     }
 }
